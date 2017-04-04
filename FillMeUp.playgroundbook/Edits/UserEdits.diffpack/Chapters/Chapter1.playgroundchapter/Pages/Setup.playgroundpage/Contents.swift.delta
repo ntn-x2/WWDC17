@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>#imageLiteral(resourceName: "Photo 29-03-2017 at 18.47.jpg")</string>
+			<key>ModifiedRange</key>
+			<string>{250, 60}</string>
+			<key>OriginalContent</key>
+			<string>&lt;#T##image##UIImage#&gt;</string>
+			<key>OriginalRange</key>
+			<string>{250, 21}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/Setup.playgroundpage/Contents.swift</string>
+</dict>
+</plist>
