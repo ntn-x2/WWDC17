@@ -1,6 +1,8 @@
 # WWDC17
 FillMeUp, WWDC17 playgroundbook
 
+## Main idea
+
 FillMeUp has been designed with the main goal of showing people with a bit of programming knowledge, some basic functionalities that CoreImage framework allows to implement.
 
 After some brainstorming, I came to the conclusion that photo editing apps are among the most engaging from users’ perspective, hence I tried to focus on a product that could help them to understand how that is achievable. Testing after development strengthened the idea that the playground was engaging and visually interactive.
@@ -8,6 +10,8 @@ After some brainstorming, I came to the conclusion that photo editing apps are a
 Using many of the features that the new playground book offers, I implemented a three-page book that introduces users to the world of photo editing, by explaining which Apple technologies allow to do it and providing further references for the most curious and interested.
 
 My initial idea was to implement a playground which used the same distortion filters as the final one, but applied to real-time camera frames captured using AVFoundation framework, without the requirement of having to choose a picture. Then I found that a bug in playground does not allow to access camera directly, so my plans got slightly changed.
+
+## Implementation
 
 The first page is an introductory page that explains what the book’s main topic is, while showing in the live view some funny images edited using the same tools available in the last page.
 The second page is a setup page which uses the built-in function of playgrounds that allows users to choose an image from the gallery or the camera. This is achievable by adding a typed placeholder token and specifying UIImage as the type parameter: with this solution I bypassed the bug preventing the direct use of the camera.
